@@ -1,0 +1,449 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/button/ecu_button.c
+[e E329 . `uc
+R_NOK 0
+R_OK 1
+]
+"24
+[e E2858 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2848 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2844 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"35
+[e E2900 . `uc
+BUTTON_NOT_PRESSED 0
+BUTTON_PRESSED 1
+]
+"42
+[e E2840 . `uc
+LOW 0
+HIGH 1
+]
+"18 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[e E329 . `uc
+R_NOK 0
+R_OK 1
+]
+"13 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/led/ecu_led.c
+[e E329 . `uc
+R_NOK 0
+R_OK 1
+]
+"21
+[e E2858 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2848 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2844 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"22
+[e E2840 . `uc
+LOW 0
+HIGH 1
+]
+"42
+[e E2900 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"19 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[e E329 . `uc
+R_NOK 0
+R_OK 1
+]
+"27
+[e E2858 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2848 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2844 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"28
+[e E2840 . `uc
+LOW 0
+HIGH 1
+]
+"52
+[e E2900 . `uc
+RELAY_ON 0
+RELAY_OFF 1
+]
+"26 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[e E329 . `uc
+R_NOK 0
+R_OK 1
+]
+"48
+[e E2858 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2848 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2844 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"105
+[e E2840 . `uc
+LOW 0
+HIGH 1
+]
+"23 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3100 . `uc
+RELAY_ON 0
+RELAY_OFF 1
+]
+"28
+[e E3086 . `uc
+BUTTON_NOT_PRESSED 0
+BUTTON_PRESSED 1
+]
+"33
+[e E469 . `uc
+R_NOK 0
+R_OK 1
+]
+"15 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/char_lcd/ecu_char_lcd.c
+[e E8 . `uc
+R_NOK 0
+R_OK 1
+]
+"32 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _robot_move_forward robot_move_forward `(v  1 e 1 0 ]
+"37
+[v _robot_move_backward robot_move_backward `(v  1 e 1 0 ]
+"42
+[v _robot_move_stop robot_move_stop `(v  1 e 1 0 ]
+"48
+[v _main main `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/button/ecu_button.c
+[v _button_initialize button_initialize `(E329  1 e 1 0 ]
+"35
+[v _button_get_status button_get_status `(E329  1 e 1 0 ]
+"18 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[v _dc_motor_initialize dc_motor_initialize `(E329  1 e 1 0 ]
+"37
+[v _dc_motor_rotate_right dc_motor_rotate_right `(E329  1 e 1 0 ]
+"57
+[v _dc_motor_rotate_left dc_motor_rotate_left `(E329  1 e 1 0 ]
+"78
+[v _dc_motor_stop dc_motor_stop `(E329  1 e 1 0 ]
+"19 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[v _relay_initialize relay_initialize `(E329  1 e 1 0 ]
+"41
+[v _relay_turn_on relay_turn_on `(E329  1 e 1 0 ]
+"65
+[v _relay_turn_off relay_turn_off `(E329  1 e 1 0 ]
+"48 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(E329  1 e 1 0 ]
+"105
+[v _gpio_pin_write_value gpio_pin_write_value `(E329  1 e 1 0 ]
+"137
+[v _gpio_pin_read_value gpio_pin_read_value `(E329  1 e 1 0 ]
+"158
+[v _gpio_pin_toggle_value gpio_pin_toggle_value `(E329  1 e 1 0 ]
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+"23 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[s S87 . 2 `S83 1 relay1 1 0 `S83 1 relay2 1 1 ]
+[v _dc_motor1_1 dc_motor1_1 `S87  1 e 2 0 ]
+"25
+[v _dc_motor1_2 dc_motor1_2 `S87  1 e 2 0 ]
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 button_status 1 0 :1:7 
+]
+"28
+[v _btn1 btn1 `S24  1 e 1 0 ]
+"29
+[v _btn2 btn2 `S24  1 e 1 0 ]
+"30
+[v _btn1_status btn1_status `E3086  1 e 1 0 ]
+[v _btn2_status btn2_status `E3086  1 e 1 0 ]
+"552 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f46k20.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"788
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"996
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1184
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1326
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1532
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1644
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1756
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1868
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1980
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"2032
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2254
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2476
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2698
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2920
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"14 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _tris_register tris_register `[5]*.39VEuc  1 s 10 tris_register ]
+"16
+[v _lat_register lat_register `[5]*.39VEuc  1 s 10 lat_register ]
+"18
+[v _port_register port_register `[5]*.39VEuc  1 s 10 port_register ]
+"48 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"78
+} 0
+"42
+[v _robot_move_stop robot_move_stop `(v  1 e 1 0 ]
+{
+"45
+} 0
+"78 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[v _dc_motor_stop dc_motor_stop `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S87 . 2 `S83 1 relay1 1 0 `S83 1 relay2 1 1 ]
+[v dc_motor_stop@dc_motor dc_motor `*.39S87  1 p 2 13 ]
+"91
+} 0
+"32 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _robot_move_forward robot_move_forward `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[v _dc_motor_rotate_right dc_motor_rotate_right `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S87 . 2 `S83 1 relay1 1 0 `S83 1 relay2 1 1 ]
+[v dc_motor_rotate_right@dc_motor dc_motor `*.39S87  1 p 2 13 ]
+"50
+} 0
+"37 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _robot_move_backward robot_move_backward `(v  1 e 1 0 ]
+{
+"40
+} 0
+"57 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[v _dc_motor_rotate_left dc_motor_rotate_left `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S87 . 2 `S83 1 relay1 1 0 `S83 1 relay2 1 1 ]
+[v dc_motor_rotate_left@dc_motor dc_motor `*.39S87  1 p 2 13 ]
+"71
+} 0
+"41 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[v _relay_turn_on relay_turn_on `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_turn_on@relay relay `*.39S83  1 p 2 9 ]
+"58
+} 0
+"65
+[v _relay_turn_off relay_turn_off `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_turn_off@relay relay `*.39S83  1 p 2 9 ]
+"82
+} 0
+"18 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[v _dc_motor_initialize dc_motor_initialize `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S87 . 2 `S83 1 relay1 1 0 `S83 1 relay2 1 1 ]
+[v dc_motor_initialize@dc_motor dc_motor `*.39S87  1 p 2 13 ]
+"30
+} 0
+"19 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[v _relay_initialize relay_initialize `(E329  1 e 1 0 ]
+{
+[s S83 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_initialize@relay relay `*.39S83  1 p 2 9 ]
+"34
+} 0
+"105 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_write_value gpio_pin_write_value `(E329  1 e 1 0 ]
+{
+[v gpio_pin_write_value@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_write_value@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_write_value@pin pin `E2848  1 p 1 0 ]
+[v gpio_pin_write_value@logic logic `E2840  1 p 1 1 ]
+[v gpio_pin_write_value@port port `E2858  1 a 1 8 ]
+"128
+} 0
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/button/ecu_button.c
+[v _button_initialize button_initialize `(E329  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 button_status 1 0 :1:7 
+]
+[v button_initialize@btn btn `*.39S24  1 p 2 9 ]
+"28
+} 0
+"48 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(E329  1 e 1 0 ]
+{
+[v gpio_pin_direction_initialize@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_direction_initialize@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_direction_initialize@pin pin `E2848  1 p 1 0 ]
+[v gpio_pin_direction_initialize@direction direction `E2844  1 p 1 1 ]
+[v gpio_pin_direction_initialize@port port `E2858  1 a 1 8 ]
+"73
+} 0
+"35 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/button/ecu_button.c
+[v _button_get_status button_get_status `(E329  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 button_status 1 0 :1:7 
+]
+[v button_get_status@btn btn `*.39S24  1 p 2 9 ]
+[v button_get_status@btn_status btn_status `*.39E2900  1 p 2 11 ]
+"47
+} 0
+"137 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_read_value gpio_pin_read_value `(E329  1 e 1 0 ]
+{
+[v gpio_pin_read_value@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_read_value@port port `E2858  1 a 1 wreg ]
+[v gpio_pin_read_value@pin pin `E2848  1 p 1 0 ]
+[v gpio_pin_read_value@logic logic `*.39E2840  1 p 2 1 ]
+[v gpio_pin_read_value@port port `E2858  1 a 1 8 ]
+"149
+} 0
