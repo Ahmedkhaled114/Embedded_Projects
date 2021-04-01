@@ -31,9 +31,7 @@ uint8_t led_seq[][LED_SEQ_NUMBER]={
 };
  
 
-//button_t btn1 = {.port_name = PORTD_INDEX , .pin = PIN0 , .button_status =BUTTON_NOT_PRESSED};
- 
- //uint8_t btn1_status = ZERO_INIT;
+
  void perform_led_seq (led_t led_arr[] , uint8_t led_pat[][LED_SEQ_NUMBER] , uint8_t seq_len ){
 
     uint8_t l_led_counter = ZERO_INIT , l_led_pos =ZERO_INIT ;
@@ -63,7 +61,7 @@ uint8_t led_seq[][LED_SEQ_NUMBER]={
 int main() {
 
        
-   // button_initialize( &btn1);
+ 
  
             while ( TRUE ) {
         
