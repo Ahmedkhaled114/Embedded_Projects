@@ -1,0 +1,533 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/button/ecu_button.c
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"24
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3013 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"35
+[e E3069 . `uc
+BUTTON_NOT_PRESSED 0
+BUTTON_PRESSED 1
+]
+"42
+[e E3009 . `uc
+LOW 0
+HIGH 1
+]
+"18 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/dc_motor/ecu_dc_motor.c
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"13 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/led/ecu_led.c
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"21
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3013 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"22
+[e E3009 . `uc
+LOW 0
+HIGH 1
+]
+"42
+[e E3069 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"19 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"27
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3013 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"28
+[e E3009 . `uc
+LOW 0
+HIGH 1
+]
+"52
+[e E3069 . `uc
+RELAY_ON 0
+RELAY_OFF 1
+]
+"26 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"48
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3013 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"105
+[e E3009 . `uc
+LOW 0
+HIGH 1
+]
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"41
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"46 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/char_lcd/ecu_char_lcd.c
+[e E3027 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3017 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3013 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+[e E3005 . `uc
+R_NOK 0
+R_OK 1
+]
+"52
+[e E3009 . `uc
+LOW 0
+HIGH 1
+]
+"39 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _application_init application_init `(v  1 e 1 0 ]
+"69
+[v _main main `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"45 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/char_lcd/ecu_char_lcd.c
+[v _lcd_4bit_intialize lcd_4bit_intialize `(v  1 s 1 lcd_4bit_intialize ]
+"72
+[v _lcd_send_enable lcd_send_enable `(v  1 s 1 lcd_send_enable ]
+"90
+[v _lcd_send_4bit lcd_send_4bit `(v  1 s 1 lcd_send_4bit ]
+"106
+[v _lcd_set_cursor lcd_set_cursor `(v  1 s 1 lcd_set_cursor ]
+"129
+[v _lcd_intialize lcd_intialize `(E3005  1 e 1 0 ]
+"145
+[v _lcd_send_command lcd_send_command `(E3005  1 e 1 0 ]
+"179
+[v _lcd_send_char_data lcd_send_char_data `(E3005  1 e 1 0 ]
+"211
+[v _lcd_send_char_data_pos lcd_send_char_data_pos `(E3005  1 e 1 0 ]
+"258
+[v _lcd_send_string_data_pos lcd_send_string_data_pos `(E3005  1 e 1 0 ]
+"286
+[v _lcd_send_custome_char lcd_send_custome_char `(E3005  1 e 1 0 ]
+"19 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/relay/ecu_relay.c
+[v _relay_initialize relay_initialize `(E3005  1 e 1 0 ]
+"41
+[v _relay_turn_on relay_turn_on `(E3005  1 e 1 0 ]
+"65
+[v _relay_turn_off relay_turn_off `(E3005  1 e 1 0 ]
+"48 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(E3005  1 e 1 0 ]
+"105
+[v _gpio_pin_write_value gpio_pin_write_value `(E3005  1 e 1 0 ]
+"137
+[v _gpio_pin_read_value gpio_pin_read_value `(E3005  1 e 1 0 ]
+"158
+[v _gpio_pin_toggle_value gpio_pin_toggle_value `(E3005  1 e 1 0 ]
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+"17 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _lcd_1 lcd_1 `S361  1 e 4 0 ]
+"27
+[v _lcd_2 lcd_2 `S361  1 e 4 0 ]
+"54
+[v _character1 character1 `C[8]uc  1 e 8 0 ]
+"55
+[v _character2 character2 `C[8]uc  1 e 8 0 ]
+"56
+[v _character3 character3 `C[8]uc  1 e 8 0 ]
+"57
+[v _character4 character4 `C[8]uc  1 e 8 0 ]
+"58
+[v _character5 character5 `C[8]uc  1 e 8 0 ]
+"59
+[v _character6 character6 `C[8]uc  1 e 8 0 ]
+"60
+[v _blt blt `C[8]uc  1 e 8 0 ]
+"62
+[v _Shab Shab `C[8]uc  1 e 8 0 ]
+"63
+[v _shab_bat1 shab_bat1 `C[8]uc  1 e 8 0 ]
+"64
+[v _shab_bat2 shab_bat2 `C[8]uc  1 e 8 0 ]
+"65
+[v _shab_bat3 shab_bat3 `C[8]uc  1 e 8 0 ]
+"66
+[v _mesg1 mesg1 `C[8]uc  1 e 8 0 ]
+"67
+[v _mesg2 mesg2 `C[8]uc  1 e 8 0 ]
+"552 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f46k20.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"788
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"996
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1184
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1326
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1532
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1644
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1756
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1868
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1980
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"2032
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2254
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2476
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2698
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2920
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"14 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _tris_register tris_register `[5]*.39VEuc  1 s 10 tris_register ]
+"16
+[v _lat_register lat_register `[5]*.39VEuc  1 s 10 lat_register ]
+"18
+[v _port_register port_register `[5]*.39VEuc  1 s 10 port_register ]
+"69 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"92
+} 0
+"258 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/char_lcd/ecu_char_lcd.c
+[v _lcd_send_string_data_pos lcd_send_string_data_pos `(E3005  1 e 1 0 ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_string_data_pos@_lcd _lcd `*.39CS361  1 p 2 22 ]
+[v lcd_send_string_data_pos@row row `uc  1 p 1 24 ]
+[v lcd_send_string_data_pos@coulmn coulmn `uc  1 p 1 25 ]
+[v lcd_send_string_data_pos@_data _data `*.25uc  1 p 2 26 ]
+"273
+} 0
+"286
+[v _lcd_send_custome_char lcd_send_custome_char `(E3005  1 e 1 0 ]
+{
+"288
+[v lcd_send_custome_char@l_counter l_counter `uc  1 a 1 38 ]
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+"286
+[v lcd_send_custome_char@_lcd _lcd `*.39CS361  1 p 2 28 ]
+[v lcd_send_custome_char@row row `uc  1 p 1 30 ]
+[v lcd_send_custome_char@coulmn coulmn `uc  1 p 1 31 ]
+[v lcd_send_custome_char@arr arr `*.25Cuc  1 p 2 32 ]
+[v lcd_send_custome_char@_pos _pos `uc  1 p 1 34 ]
+"302
+} 0
+"211
+[v _lcd_send_char_data_pos lcd_send_char_data_pos `(E3005  1 e 1 0 ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_char_data_pos@_lcd _lcd `*.39CS361  1 p 2 22 ]
+[v lcd_send_char_data_pos@row row `uc  1 p 1 24 ]
+[v lcd_send_char_data_pos@coulmn coulmn `uc  1 p 1 25 ]
+[v lcd_send_char_data_pos@_data _data `uc  1 p 1 26 ]
+"223
+} 0
+"106
+[v _lcd_set_cursor lcd_set_cursor `(v  1 s 1 lcd_set_cursor ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_set_cursor@_lcd _lcd `*.39CS361  1 p 2 16 ]
+[v lcd_set_cursor@row row `uc  1 p 1 18 ]
+[v lcd_set_cursor@coulmn coulmn `uc  1 p 1 19 ]
+"115
+} 0
+"179
+[v _lcd_send_char_data lcd_send_char_data `(E3005  1 e 1 0 ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_char_data@_lcd _lcd `*.39CS361  1 p 2 12 ]
+[v lcd_send_char_data@_data _data `uc  1 p 1 14 ]
+"199
+} 0
+"39 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\application.c
+[v _application_init application_init `(v  1 e 1 0 ]
+{
+"48
+} 0
+"129 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\ecu/char_lcd/ecu_char_lcd.c
+[v _lcd_intialize lcd_intialize `(E3005  1 e 1 0 ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_intialize@_lcd _lcd `*.39CS361  1 p 2 18 ]
+"136
+} 0
+"45
+[v _lcd_4bit_intialize lcd_4bit_intialize `(v  1 s 1 lcd_4bit_intialize ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_4bit_intialize@_lcd _lcd `*.39CS361  1 p 2 16 ]
+"65
+} 0
+"145
+[v _lcd_send_command lcd_send_command `(E3005  1 e 1 0 ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_command@_lcd _lcd `*.39CS361  1 p 2 12 ]
+[v lcd_send_command@command command `uc  1 p 1 14 ]
+"169
+} 0
+"72
+[v _lcd_send_enable lcd_send_enable `(v  1 s 1 lcd_send_enable ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_enable@_lcd _lcd `*.39CS361  1 p 2 9 ]
+"82
+} 0
+"90
+[v _lcd_send_4bit lcd_send_4bit `(v  1 s 1 lcd_send_4bit ]
+{
+[s S361 . 4 `uc 1 lcd_data_port 1 0 :6:0 
+`uc 1 lcd_data_pin4 1 1 :3:0 
+`uc 1 lcd_data_pin5 1 1 :3:3 
+`uc 1 lcd_data_pin6 1 2 :3:0 
+`uc 1 lcd_data_pin7 1 2 :3:3 
+`uc 1 lcd_en_pin 1 3 :3:0 
+`uc 1 lcd_rs_pin 1 3 :3:3 
+]
+[v lcd_send_4bit@_lcd _lcd `*.39CS361  1 p 2 9 ]
+[v lcd_send_4bit@_data _data `uc  1 p 1 11 ]
+"95
+} 0
+"105 E:\Embedded_Systems_Diploma\embedded c pro\embeddedApp\mcal/gpio/mcal_gpio.c
+[v _gpio_pin_write_value gpio_pin_write_value `(E3005  1 e 1 0 ]
+{
+[v gpio_pin_write_value@port port `E3027  1 a 1 wreg ]
+[v gpio_pin_write_value@port port `E3027  1 a 1 wreg ]
+[v gpio_pin_write_value@pin pin `E3017  1 p 1 0 ]
+[v gpio_pin_write_value@logic logic `E3009  1 p 1 1 ]
+[v gpio_pin_write_value@port port `E3027  1 a 1 8 ]
+"128
+} 0
+"48
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(E3005  1 e 1 0 ]
+{
+[v gpio_pin_direction_initialize@port port `E3027  1 a 1 wreg ]
+[v gpio_pin_direction_initialize@port port `E3027  1 a 1 wreg ]
+[v gpio_pin_direction_initialize@pin pin `E3017  1 p 1 0 ]
+[v gpio_pin_direction_initialize@direction direction `E3013  1 p 1 1 ]
+[v gpio_pin_direction_initialize@port port `E3027  1 a 1 8 ]
+"73
+} 0
